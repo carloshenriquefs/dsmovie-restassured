@@ -12,16 +12,16 @@
 
 ## :white_check_mark: - Critérios de correção:
 
-- GET /movies deve retornar 200 quando não forem informados argumentos;
-- GET /movies deve retornar 200 com página de filmes quando um título for informado;
-- GET /movies/{id} deve retornar 200 com um filme quando o id existir;
-- GET /movies/{id} deve retornar 404 quando id não existir;
-- POST /movies deve retornar 422 quando informado nome em branco;
-- POST /movies deve retornar 403 quando CLIENT logado;
-- POST /movies deve retornar 401 quando token for inválido;
-- POST /scores deve retornar 404 quando id do filme não existir;
-- POST /scores deve retornar 422 quando id do filme não for informado;
-- POST /scores deve retornar 422 quando valor do score for menor que zero;
+- [x] - GET /movies deve retornar 200 quando não forem informados argumentos;
+- [x] - GET /movies deve retornar 200 com página de filmes quando um título for informado;
+- [x] - GET /movies/{id} deve retornar 200 com um filme quando o id existir;
+- [x] - GET /movies/{id} deve retornar 404 quando id não existir;
+- [x] - POST /movies deve retornar 422 quando informado nome em branco;
+- [x] - POST /movies deve retornar 403 quando CLIENT logado;
+- [x] - POST /movies deve retornar 401 quando token for inválido;
+- [x] - POST /scores deve retornar 404 quando id do filme não existir;
+- [x] - POST /scores deve retornar 422 quando id do filme não for informado;
+- [x] - POST /scores deve retornar 422 quando valor do score for menor que zero;
 
 ##
 
@@ -37,6 +37,7 @@
 - ##### insertShouldReturnForbiddenWhenClientLogged;
 - ##### insertShouldReturnUnauthorizedWhenInvalidToken;
 
+##
 
 #### :open_file_folder: - ScoreControllerRA:
 
